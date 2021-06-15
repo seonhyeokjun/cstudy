@@ -20,3 +20,6 @@ void memory();
 void functionpointer();
 void structs();
 void file();
+void linkedlist();
+void DoublyLinkedLists();
+void stack();

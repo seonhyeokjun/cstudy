@@ -29,7 +29,10 @@
 }*/
 
 int main() {
-    printf("%d\n", add(3, 5));
+    stack();
+    //oublyLinkedLists();
+    //linkedlist();
+    //printf("%d\n", add(3, 5));
     /*ll a = 987654321000;`
     ld b = 100.5054;
     printf("%.1f\n", a * b);*/
