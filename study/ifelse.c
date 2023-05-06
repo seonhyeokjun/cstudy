@@ -1,10 +1,8 @@
-//
-// Created by 애플워치사줘야하는여자와사귀는남자 on 2021/06/13.
-//
 #include <stdio.h>
+#include <stdlib.h>
 
-int ifelse(){
-    /*printf("손님이 몇 명 왔나요? ");
+int main(void ){
+    printf("손님이 몇 명 왔나요? ");
     int a;
     scanf("%d", &a);
     if (a == 1 || a == 2){
@@ -13,20 +11,21 @@ int ifelse(){
         printf("4인석으로 안내합니다. \n");
     } else {
         printf("대형석으로 안내합니다. \n");
-    }*/
-    /*int size;
+    }
+
+    int size;
     printf("메인 메모리 크기를 입력하세요. (GB) ");
     scanf("%d", &size);
     if (size >= 16){
         printf("메인 메모리 크기 충분합니다.\n");
     } else {
         printf("메인 메모리를 증설하세요. \n");
-    }*/
+    }
 
     printf("월을 입력하세요. ");
-    int a;
-    scanf("%d", &a);
-    switch (a) {
+    int b;
+    scanf("%d", &b);
+    switch (b) {
         case 1:
         case 2:
         case 3:
@@ -48,7 +47,11 @@ int ifelse(){
             printf("겨울\n");
             break;
     }
-    /*switch (a) {
+
+    printf("학점을 입력하세요. ");
+    char c;
+    scanf(" %c", &c);
+    switch (c) {
         case 'A':
             printf("A 학점입니다. \n");
             break;
@@ -60,6 +63,8 @@ int ifelse(){
             break;
         default:
             printf("학점을 바르게 입력하세요. \n");
-    }*/
+    }
+
+    system("pause");
     return 0;
 }
