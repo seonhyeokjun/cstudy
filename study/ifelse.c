@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void ){
+int main(void){
     printf("손님이 몇 명 왔나요? ");
     int a;
     scanf("%d", &a);
